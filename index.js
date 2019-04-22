@@ -8,7 +8,6 @@
 const axios = require("axios");
 const colors = require('colors');
 const sessions = require("client-sessions");
-const config = require("./config");
 
 const session_client: {
 	cookieName: 'tndata', // cookie name dictates the key name added to the request object
